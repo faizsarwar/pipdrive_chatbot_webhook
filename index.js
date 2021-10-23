@@ -61,7 +61,7 @@ app.post("/webhook",express.json(),(request,response)=>{          //fulfillment 
           })
           
 
-        agent.add(`Sie haben also Interesse an einer $product
+        agent.add(`Sie haben also Interesse an einer ${product}
         Haben Sie konkrete Fragen zu diesem Bereich oder möchten Sie, dass Sie einer unserer Berater anruft.`)
       
     }
